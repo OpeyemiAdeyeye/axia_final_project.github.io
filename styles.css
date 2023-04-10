@@ -115,3 +115,19 @@
     background-color: #6c63ff;
     text-align: center;
 }
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.bi {
+    margin: 0 5px;
+    color: #F5DB56;
+}
