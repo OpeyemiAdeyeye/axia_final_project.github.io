@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .main {
     background-color: rgb(249, 252, 255);
 }
@@ -33,8 +37,12 @@
     color: #06034a;
 }
 
+.sections {
+    padding: 0 30px;
+}
+
 .section1 {
-    margin: 30px 0;
+    padding: 0 0 20px 0;
 }
 
 .section1 button {
@@ -61,7 +69,7 @@
 }
 
 .section2 .about_me {
-    padding: 50px;
+
     text-align: justify;
 }
 
@@ -70,7 +78,7 @@
     border-radius: 125px;
     border: solid 3px #6c63ff;
     box-shadow: 4px 4px 10px #06034a62;
-    margin: 20px;
+    margin: 10px;
 }
 
 .illustration {
@@ -80,9 +88,7 @@
 
 .illustration img {
     width: 600px;
-
 }
-
 
 .footer ol li a {
     color: white;
@@ -94,7 +100,6 @@
 }
 
 .footer {
-    margin: 0;
     padding: 10px;
     background-color: #6c63ff;
 }
@@ -118,8 +123,9 @@
 
 .section3 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 10px;
+    margin: 0 0 20px 0;border-top: solid 1px rgb(214, 227, 255);
 }
 
 .socialmedia {
@@ -130,4 +136,42 @@
 .bi {
     margin: 0 5px;
     color: #F5DB56;
+}
+
+.myworks_card {
+    border-right: #cdc9ff 1px solid;
+}
+
+.myworks_card3 {
+    border-right: none 1px solid;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+    padding: 0 20px;
+    margin: 0;
+    background-color: #F5DB56;
+}
+
+.card-content h3 {
+    font-weight: 700;
+}
+
+.card-content button a {
+    font-weight: 500;
+    color: #F5DB56;
+    text-decoration: none;
+}
+
+.card-content button {
+    background-color: #6c63ff;
+    margin: 0 0 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    padding: 5px 10px;
 }
